@@ -4,4 +4,4 @@ variable "AWS_REGION" {
 
 variable "RDS_PASSWORD" {
   default = "<f+{'bUm}MR8k#aG"
-  }
+}
