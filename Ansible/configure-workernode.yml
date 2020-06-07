@@ -1,4 +1,4 @@
 ---
-- import_playbook: playbooks/configure_worker_nodes.yml
+- import_playbook: configure_worker_nodes.yml
 
 
