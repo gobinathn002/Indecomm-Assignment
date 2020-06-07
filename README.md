@@ -33,10 +33,10 @@ I have integreated all the Devops tools like, GIT, Jenkins, Ansible, Terraform, 
  1. I have created the All the AWS resources using the Infrastruture as a Code tool Terraform.
       a. I have created vpc, subnets, InternetGW, NAT GW, Route tables, Security groups, Ec2 instances.
       b. After provisioning of infra i have used ansible to install packages on to the master and worker nodes. 
-2. Once the infra is ready, i have deployed jenkins and ansible servers to integreate CI/CD workflow. 
+2. Once the infra is ready, i have created Jenkins job to create CI/CD workflow. 
 3. After that i have taken one 3 tier app to deploy to the Kubernetes cluster. 
 4. I build Jenkins Maven project to complete this CI/CD process. I have defined all the steps for automating this process whenever the Devloper commits the code on the GITHUB using POLL SCM in the Jenkins JOB. 
 5. I have build Docker images and push to the Docker HUB and i deployed that on to the Kubernetes cluster as a POD.
-6. Created service on Kubernetes to expose the application to public.
+6. Created services like LoadBalancer to expose the application to public.
 
 I have kept all the files in the GITHUB respositary for this CI/CD flow.
