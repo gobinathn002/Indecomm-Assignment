@@ -25,6 +25,10 @@ or not to invite you to review it with us.
 
 Solution:- 
 
+Architecture Approach - 
+
+![Architecture-3 tier Web app](https://user-images.githubusercontent.com/38713873/83965637-41dbb780-a8ca-11ea-9b67-02771389efcf.PNG)
+
 I have integreated all the Devops tools like, GIT, Jenkins, Ansible, Terraform, Docker and Kubernetes.
  1. I have created the All the AWS resources using the Infrastruture as a Code tool Terraform.
       a. I have created vpc, subnets, InternetGW, NAT GW, Route tables, Security groups, Ec2 instances.
